@@ -84,8 +84,6 @@ transition: 0.5s;
   width: 1100px;
   height: 750px;
   left: 287px;
-  border:  blue dotted;
-  
 }
 
 #home > p{
@@ -146,7 +144,6 @@ background: #0E1010;
   height: 750px;
   left: 200px;
   top: 830px;
-  border:  blue dotted;
 }
 .sobretxt{
   position: absolute;
@@ -318,7 +315,6 @@ color: #FFFFFF;
   height: 750px;
   left: 200px;
   top: 1680px;
-  border: blue dotted;
 }
 
 
