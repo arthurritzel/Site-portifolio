@@ -28,7 +28,7 @@ h1{
 }
 
 body{
-  background-color: #0E1010;
+  background-color: #0e1111;
   height: 3840px;
 }
 
@@ -48,7 +48,7 @@ body{
   position: absolute;
   width: 150%;
   left: -28px;
-  top: -20px;
+  top: -30px;
 }
 
 .img1{
@@ -124,7 +124,7 @@ height: 250px;
 
 
 /* black */
-background: #0E1010;
+background: #0e1111;
 }
 
 .block1{
@@ -135,7 +135,7 @@ left: 350px;
 top: 390px;
 
 /* black */
-background: #0E1010;
+background: #0e1111;
 }
 
 #sobre{
@@ -148,7 +148,6 @@ background: #0E1010;
 .sobretxt{
   position: absolute;
   top: 50px;
-
   font-family: 'Blinker', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -162,11 +161,11 @@ background: #0E1010;
   position: absolute;
   width: 314px;
   height: 564px;
-  left: 150px;
+  left: 100px;
   top: 184px;
 
   /* blue */
-  background: #172434;
+  background: #17243497;
   border-radius: 10px;
 }
 
@@ -202,35 +201,35 @@ color: #FFFFFF;
 
 .edu1{
   position: absolute;
-  width: 404px;
-  height: 183px;
-  left: 700px;
+  width: 350px;
+  height: 150px;
+  left: 600px;
   top: 185px;
   /* blue */
-  background: #172434;
+  background: #17243497;
   border-radius: 10px;
 }
 .edu2{
   position: absolute;
-  width: 404px;
-  height: 183px;
-  left: 700px;
+  width: 350px;
+  height: 150px;
+  left: 750px;
   top: 375px;
   
   /* blue */
-  background: #172434;
+  background: #17243497;
   border-radius: 10px;
 }
 .edu3{
   position: absolute;
-  width: 404px;
-  height: 183px;
-  left: 700px;
+  width: 350px;
+  height: 150px;
+  left: 600px;
   top: 565px;
   
   
   /* blue */
-  background: #172434;
+  background: #17243497;
   border-radius: 10px;
 }
 .edutxt{
@@ -255,10 +254,10 @@ height: 106px;
 top: 40px;
 left: 20px;
 
-font-family: 'Aleo';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 32px;
+font-size: 24px;
 line-height: 35px;
 
 color: #FFFFFF;
@@ -267,13 +266,13 @@ color: #FFFFFF;
   position: absolute;
   width: 352px;
   height: 106px;
-  top: 75px;
-  left: 20px;
+  top: 70px;
+  left: 18px;
   
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 30px;
   
   color: #FFFFFF;
@@ -285,10 +284,10 @@ height: 106px;
 top: 15px;
 left: 20px;
 
-font-family: 'Aleo';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 32px;
+font-size: 24px;
 line-height: 35px;
 
 color: #FFFFFF;
@@ -297,13 +296,13 @@ color: #FFFFFF;
   position: absolute;
   width: 352px;
   height: 106px;
-  top: 90px;
+  top: 80px;
   left: 20px;
   
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 30px;
   
   color: #FFFFFF;
@@ -341,7 +340,7 @@ background-repeat: no-repeat;
   
 
   /* black */
-  background: #0E1010;
+  background: #0e1111;
 }
 .imgpcb2{
   position: absolute;
@@ -351,7 +350,7 @@ background-repeat: no-repeat;
   right: 0px;
 
   /* black */
-  background: #0E1010;
+  background: #0e1111;
 }
 
 .logos > img{
