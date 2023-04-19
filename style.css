@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
 
+html{
+  scroll-behavior: smooth;
 }
 
 h1{
@@ -25,7 +31,7 @@ body{
 }
 
 #bar{
-  box-sizing: border-box;
+  
 
   position: fixed;
   width: 129px;
@@ -37,4 +43,120 @@ body{
   background: #172434;
   border: 1px solid #000000;
   border-radius: 10px;
+}
+
+.img1{
+  position: absolute;
+  width: 50%;
+  left: 30px;
+  top: 51px;
+}
+
+.img1:hover { 
+  background-image: url(/imagens/home-2.png);
+
+transition: 0.5s;
+}
+
+.img2{
+  position: absolute;
+  width: 50%;
+  left: 30px;
+  top: 207px;
+}
+
+.img3{
+  position: absolute;
+  width: 50%;
+  left: 30px;
+  top: 363px;
+}
+
+.img4{
+  position: absolute;
+  width: 50%;
+  left: 30px;
+  top: 519px;
+}
+
+#home{
+  position: absolute;
+  width: 1100px;
+  height: 750px;
+  left: 287px;
+  
+  
+}
+
+#home > p{
+  position: absolute;
+  width: 785px;
+  height: 145px;
+  left: 40px;
+  top: 246px;
+
+  font-family: 'Poiret One', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+
+  color: #FFFFFF;
+}
+
+.img{
+  position: absolute;
+  width: 713px;
+  height: 600px;
+  left: 250px;
+  top: 96px;
+  
+
+  background-image: url(/imagens/159F50BF-05CF-403A-8291-06094F3853FD_1_105_c.jpeg);
+  background-position: 300px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.block{
+  position: absolute;
+width: 250px;
+height: 250px;
+
+
+
+/* black */
+background: #0E1010;
+}
+
+.block1{
+  position: absolute;
+width: 500px;
+height: 250px;
+left: 350px;
+top: 390px;
+
+/* black */
+background: #0E1010;
+}
+
+#sobre{
+  position: absolute;
+  width: 1100px;
+  height: 750px;
+  left: 200px;
+  top: 830px;
+  border: blue dotted;
+}
+.sobretxt{
+  position: absolute;
+  top: 50px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #FFFFFF;
 }
