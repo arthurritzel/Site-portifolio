@@ -118,9 +118,9 @@ body{
 
 .block{
   position: absolute;
-width: 250px;
-height: 250px;
-
+  width: 250px;
+  height: 250px;
+  box-shadow: #0e1111 6px 6px 10px 0px ;
 
 
 /* black */
@@ -129,11 +129,11 @@ background: #0e1111;
 
 .block1{
   position: absolute;
-width: 500px;
-height: 250px;
-left: 350px;
-top: 390px;
-
+  width: 500px;
+  height: 250px;
+  left: 350px;
+  top: 390px;
+  box-shadow: #0e1111 -5px -5px 10px 0px ;
 /* black */
 background: #0e1111;
 }
@@ -329,7 +329,7 @@ background-image: url(/imagens/971.jpg);
 background-position: left;
 background-size: 90%;
 background-position-x: 400px;
-background-position-y: 100px;
+background-position-y: 10px;
 background-repeat: no-repeat;
 
 }
@@ -337,7 +337,7 @@ background-repeat: no-repeat;
   position: absolute;
   width: 256px;
   height: 190px;
-  
+  box-shadow: #0e1111 6px 6px 10px 0px ;
 
   /* black */
   background: #0e1111;
@@ -348,6 +348,7 @@ background-repeat: no-repeat;
   height: 119px;
   bottom: 0px;
   right: 0px;
+  box-shadow: #0e1111 -5px -5px 10px 0px ;
 
   /* black */
   background: #0e1111;
@@ -366,7 +367,7 @@ background-repeat: no-repeat;
 
   width: 350px;
   height: 500px;
-  border:  dotted;
+  /* border:  dotted; */
 }
 
 #cntt{
@@ -386,6 +387,7 @@ background-repeat: no-repeat;
   /* border: blue dotted; */
   top: 170px;
   left: 100px;
+  box-shadow: #0e1111 inset 7px 7px 10px 0px ;
 
   background-image: url(/imagens/instagram.png);
   background-size: 9%;
@@ -401,6 +403,7 @@ background-repeat: no-repeat;
   height: 140px;
   /* border: blue dotted; */
   right: 0px;
+  box-shadow: #0e1111 inset 6px 6px 10px 0px ;
 
   background-image: url(/imagens/github.png);
   background-size: 9%;
@@ -416,6 +419,7 @@ background-repeat: no-repeat;
   /* border: blue dotted; */
   right: 100px;
   bottom: 100px;
+  box-shadow: #0e1111 inset 8px 8px 10px 0px ;
 
   background-image: url(/imagens/linkedin.png);
   background-size: 9%;
@@ -431,6 +435,7 @@ background-repeat: no-repeat;
   /* border: blue dotted; */
   bottom: 0px;
   left: 50px;
+  box-shadow: #0e1111 inset 8px 8px 10px 0px ;
   
   background-image: url(/imagens/gmail.png);
   background-size: 9%;
