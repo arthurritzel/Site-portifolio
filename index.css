@@ -108,14 +108,14 @@ body{
 
 .img{
   position: absolute;
-  width: 713px;
+  width: 60%;
   height: 600px;
   left: 250px;
   top: 96px;
   
 
   background-image: url(/imagens/159F50BF-05CF-403A-8291-06094F3853FD_1_105_c.jpeg);
-  background-position: 300px;
+  background-position: 70% 50%;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
@@ -133,7 +133,7 @@ background: #0e1111;
 
 .block1{
   position: absolute;
-  width: 400px;
+  width: 250px;
   height: 250px;
   left: 350px;
   top: 390px;
@@ -851,3 +851,35 @@ top: 150px;
     transform: rotate(40deg);
   }
 }
+
+@media (min-width: 1016px) and (max-width: 1439px){
+  body{
+    /* background-color: blue; */
+  }
+  
+  #home{
+    margin-left: -10%;
+  }
+
+  .txt{
+    margin-left: -40px;
+  }
+
+
+  .edu1, .edu2, .edu3{
+    margin-left: -130px;
+  }
+
+  .logos{
+    margin-left: -60px;
+  }
+  #code > img{
+    margin-left: -130px;
+  }
+  #cntt{
+    margin-left: -40px;
+    width: 1000px;
+  }
+  .linke{
+    top: 600px;
+  }
