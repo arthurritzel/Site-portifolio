@@ -82,9 +82,10 @@ body{
 
 #home{
   position: absolute;
-  width: 1100px;
+  width: 1000px;
   height: 750px;
   left: 287px;
+  
 }
 
 #home > p{
@@ -130,18 +131,20 @@ background: #0e1111;
 
 .block1{
   position: absolute;
-  width: 500px;
+  width: 400px;
   height: 250px;
   left: 350px;
   top: 390px;
   box-shadow: #0e1111 -5px -5px 10px 0px ;
+  
+
 /* black */
 background: #0e1111;
 }
 
 #sobre{
   position: absolute;
-  width: 1100px;
+  width: 1000px;
   height: 750px;
   left: 200px;
   top: 830px;
@@ -311,7 +314,7 @@ color: #FFFFFF;
 
 #code{
   position: absolute;
-  width: 1100px;
+  width: 1000px;
   height: 750px;
   left: 200px;
   top: 1680px;
@@ -373,7 +376,7 @@ background-repeat: no-repeat;
 
 #cntt{
   position: absolute;
-  width: 1100px;
+  width: 1000px;
   height: 750px;
   left: 200px;
   top: 2530px;
