@@ -29,7 +29,7 @@ h1{
 
 body{
   background-color: #0e1111;
-  height: 3840px;
+  height: 3340px;
 }
 
 #bar{
@@ -54,29 +54,29 @@ body{
 .img1{
   position: absolute;
   width: 50%;
-  left: 18px;
-  top: 90px;
+  left: 19px;
+  top: 35px;
 }
 
 .img2{
   position: absolute;
   width: 50%;
-  left: 18px;
-  top: 170px;
+  left: 19px;
+  top: 130px;
 }
 
 .img3{
   position: absolute;
   width: 50%;
-  left: 18px;
-  top: 250px;
+  left: 19px;
+  top: 225px;
 }
 
 .img4{
   position: absolute;
   width: 50%;
-  left: 18px;
-  top: 330px;
+  left: 19px;
+  top: 320px;
 }
 
 #home{
@@ -375,6 +375,105 @@ background-repeat: no-repeat;
   height: 750px;
   left: 200px;
   top: 2530px;
-  border: blue dotted;
+  /* border: blue dotted; */
 }
 
+
+.ainsta{
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  /* border: blue dotted; */
+  top: 170px;
+  left: 100px;
+
+  background-image: url(/imagens/instagram.png);
+  background-size: 9%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-x: 305px;
+  background-position-y: 175px;
+
+}
+.github{
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  /* border: blue dotted; */
+  right: 0px;
+
+  background-image: url(/imagens/github.png);
+  background-size: 9%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-x: 1162px;
+  background-position-y: 5px;
+}
+.linke{
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  /* border: blue dotted; */
+  right: 100px;
+  bottom: 100px;
+
+  background-image: url(/imagens/linkedin.png);
+  background-size: 9%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-x: 1063px;
+  background-position-y: 513px;
+}
+.email{
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  /* border: blue dotted; */
+  bottom: 0px;
+  left: 50px;
+  
+  background-image: url(/imagens/gmail.png);
+  background-size: 9%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-x: 255px;
+  background-position-y: 613px;
+}
+
+.central{
+  position: absolute;
+  top: 300px;
+  left: 450px;
+  width: 200px;
+}
+
+.seta1{
+  position: absolute;
+  width: 350px;
+  left: 650px;
+  top: 100px;
+}
+
+.seta2{
+  position: absolute;
+  width: 250px;
+  left: 230px;
+  top: 150px;
+
+  transform: rotate(270deg);
+}
+
+.seta3{
+  width: 300px;
+  position: absolute;
+  transform: rotate(180deg);
+  bottom: 50px;
+  left: 200px;
+}
+
+.seta4{
+  position: absolute;
+  width: 300px;
+  left: 550px;
+  bottom: 100px;
+}
