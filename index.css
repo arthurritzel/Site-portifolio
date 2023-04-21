@@ -47,12 +47,7 @@ body{
   border: 1px solid #000000;
   border-radius: 10px;
 }
-.logoar{
-  position: absolute;
-  width: 150%;
-  left: -28px;
-  top: -30px;
-}
+
 
 .img1{
   position: absolute;
@@ -444,7 +439,7 @@ top: 150px;
 }
 
 
-@media (max-width: 1016px){
+@media (min-width: 426px) and (max-width: 1016px){
   *{
     /* border: blue dotted; */
   }
@@ -491,7 +486,7 @@ top: 150px;
     left: 10%;
     width: 400px;
     height: 600px;
-    border: blue dotted;
+    
   }
   #home > p{
     position: absolute;
@@ -761,7 +756,7 @@ top: 150px;
     left: 20%;
     
     top: 2800px;
-    border: blue dotted;
+    
     
   }
 
@@ -883,3 +878,492 @@ top: 150px;
   .linke{
     top: 600px;
   }
+}
+@media (max-width: 425px){
+  *{
+    /* border: blue dotted; */
+  }
+  body{
+    width: 414px;
+  }
+  h1{
+    font-size: 36px;
+    top: 10px;
+    left: 29px;
+  }
+
+  #bar{
+    visibility: hidden;
+    position: fixed;
+    width: 200px;
+    height: 65px;
+    top: 10px;
+    left: 190px;
+  }
+  .img1{
+    width: 15%;
+    top: 15px;
+    left: 10px;
+  }
+  .img2{
+    width: 15%;
+    left: 55px;
+    top: 15px;
+  }
+  .img3{
+    width: 15%;
+    left: 105px;
+    top: 15px;
+  }
+  .img4{
+    width: 15%;
+    left: 155px;
+    top: 15px;
+  }
+
+  #home{
+    /* border: blue dotted; */
+    left: 10%;
+    top: 50px;
+    width: 400px;
+    height: 600px;
+  }
+  #home > p{
+    position: absolute;
+    width: 300px;
+    height: 145px;
+    left: 10px;
+    top: 100px;
+  
+    font-family: 'Poiret One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 58px;
+  
+    color: #FFFFFF;
+  }
+  
+  .img{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 70px;
+    top: 96px;
+    /* border: blue dotted; */
+    
+  
+    background-image: url(/imagens/159F50BF-05CF-403A-8291-06094F3853FD_1_105_c.jpeg);
+    background-size: 130%;
+    background-position-x: -40px;
+    background-position-y: 96px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  .block{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    box-shadow: #0e1111 6px 6px 10px 0px ;
+  
+  
+  /* black */
+  background: #0e1111;
+  }
+  
+  .block1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 150px;
+    top: 250px;
+    box-shadow: #0e1111 -5px -5px 10px 0px ;
+    
+  
+  /* black */
+  background: #0e1111;
+  }
+  
+  #sobre{
+    position: absolute;
+    width: 400px;
+    height: 1300px;
+    left: 10%;
+    top: 650px;
+    /* border: blue dotted; */
+  }
+  .sobretxt{
+    position: absolute;
+    top: 50px;
+    font-family: 'Blinker', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+  
+    color: #FFFFFF;
+  }
+  
+  .txt{
+    position: absolute;
+    width: 314px;
+    height: 564px;
+    left: 70px;
+    top: 184px;
+  
+    /* blue */
+    background: #17243497;
+    border-radius: 10px;
+  }
+  
+  .hello{
+    position: absolute;
+  height: 48px;
+  top: -25px;
+  left: -60px;
+  font-family: 'Poiret One', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  
+  color: #FFFFFF;
+  }
+  
+  .sobreeu{
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 20px;
+    top: 50px;
+  
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-indent: 1.3em;
+  
+    color: #FFFFFF;
+  }
+  .edu1{
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    left: 50px;
+    top: 800px;
+    /* blue */
+    background: #17243497;
+    border-radius: 10px;
+  }
+  .edu2{
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    left: 20px;
+    top: 970px;
+    
+    /* blue */
+    background: #17243497;
+    border-radius: 10px;
+  }
+  .edu3{
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    left: 50px;
+    top: 1140px;
+    
+    
+    /* blue */
+    background: #17243497;
+    border-radius: 10px;
+  }
+  .edutxt{
+    position: absolute;
+  width: 169px;
+  height: 48px;
+  top: -25px;
+  left: -40px;
+  
+  font-family: 'Poiret One', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  
+  color: #FFFFFF;
+  }
+  .ensino{
+    position: absolute;
+  width: 352px;
+  height: 106px;
+  top: 40px;
+  left: 20px;
+  
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  
+  color: #FFFFFF;
+  }
+  .inco{
+    position: absolute;
+    width: 352px;
+    height: 106px;
+    top: 70px;
+    left: 18px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+  }
+  .ensino2{
+    position: absolute;
+  width: 352px;
+  height: 106px;
+  top: 15px;
+  left: 20px;
+  
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  
+  color: #FFFFFF;
+  }
+  .bpk{
+    position: absolute;
+    width: 352px;
+    height: 106px;
+    top: 80px;
+    left: 20px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+  }
+  #code{
+    position: absolute;
+    width: 400px;
+    height: 750px;
+    left: 10%;
+    top: 1980px;
+    /* border: blue dotted; */
+  }
+  
+  
+  #code > img{
+    position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 50px;
+  top: 150px;
+   visibility: hidden;
+  }
+  
+  .logos > img{
+    width: 30%;
+    margin-left: 45px;
+    margin-bottom: 45px;
+  }
+  .logos{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    
+  
+    width: 350px;
+    height: 500px;
+    /* border:  dotted; */
+  }
+
+  #cntt{
+    position: absolute;
+    width: 400px;
+    height: 750px;
+    margin-left: -170px;
+    
+    top: 2700px;
+    /* border: blue dotted; */
+    
+  }
+
+  .ainsta{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    /* border: blue dotted; */
+    top: 170px;
+    left: 50px;
+    box-shadow: #0e1111 inset 7px 7px 10px 0px ;
+  
+    
+  
+  }
+  .github{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    /* border: blue dotted; */
+    right: 0px;
+    top: 80px;
+    box-shadow: #0e1111 inset 6px 6px 10px 0px ;
+  
+   
+  }
+  .linke{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    /* border: blue dotted; */
+    right: 50px;
+    bottom: 100px;
+    box-shadow: #0e1111 inset 8px 8px 10px 0px ;
+  
+   
+  }
+  .email{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    /* border: blue dotted; */
+    bottom: 0px;
+    left: 50px;
+    box-shadow: #0e1111 inset 8px 8px 10px 0px ;
+    
+    
+  }
+  
+  .central{
+    position: absolute;
+    top: 340px;
+    left: 150px;
+    width: 150px;
+  }
+  
+  .seta1{
+    position: absolute;
+    width: 190px;
+    left: 200px;
+    top: 170px;
+    transform: rotate(-20deg);
+  }
+  
+  .seta2{
+    position: absolute;
+    width: 150px;
+    left: 120px;
+    top: 215px;
+  
+    transform: rotate(270deg);
+  }
+  
+  .seta3{
+    width: 200px;
+    position: absolute;
+    transform: rotate(140deg);
+    bottom: 90px;
+    left: 40px;
+  }
+  
+  .seta4{
+    position: absolute;
+    width: 100px;
+    left: 230px;
+    bottom: 200px;
+    transform: rotate(40deg);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+  h1{
+    font-size: 40px;
+    margin-left: 40px;
+  }
+  #bar{
+    visibility: visible;
+    position: fixed;
+  width: 50px;
+  height: 300px;
+  left: 10px;
+  top: 200px;
+
+  /* blue */
+  background: #172434;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  }
+  .img1{
+    position: absolute;
+    width: 60%;
+    left: 9px;
+    top: 20px;
+  }
+  
+  .img2{
+    position: absolute;
+    width: 60%;
+    left: 9px;
+    top: 95px;
+  }
+  
+  .img3{
+    position: absolute;
+    width: 60%;
+    left: 9px;
+    top: 170px;
+  }
+  
+  .img4{
+    position: absolute;
+    width: 60%;
+    left: 9px;
+    top: 240px;
+  }
+  
+  #home{
+    margin-left: 50px;
+  }
+  #home > p{
+    font-size: 28px;
+    margin-left: -50px;
+  }
+  .img{
+    width: 400px;
+    background-size: 80%;
+    background-position-x: 60px;
+  }
+  .block1{
+    left: 250px;
+  }
+  #sobre{
+    margin-left: 80px;
+  }
+  .sobretxt{
+    margin-left: -60px;
+  }
+  .edu1, .edu3{
+    left: 5px;
+  }
+  .edu2{
+    left: 95px;
+  }
+  #code{
+    margin-left: 100px;
+  }
+  #cntt{
+    margin-left: 20px;
+  }
+}
