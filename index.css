@@ -881,7 +881,7 @@ top: 150px;
 }
 @media (max-width: 425px){
   *{
-    /* border: blue dotted; */
+    
   }
   body{
     width: 414px;
@@ -1012,7 +1012,7 @@ top: 150px;
     left: 70px;
     top: 184px;
   
-    /* blue */
+    b
     background: #17243497;
     border-radius: 10px;
   }
@@ -1036,7 +1036,7 @@ top: 150px;
     margin-left: 20px;
     margin-right: 20px;
     top: 50px;
-  
+   
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1052,7 +1052,7 @@ top: 150px;
     height: 150px;
     left: 50px;
     top: 800px;
-    /* blue */
+    
     background: #17243497;
     border-radius: 10px;
   }
@@ -1063,7 +1063,6 @@ top: 150px;
     left: 20px;
     top: 970px;
     
-    /* blue */
     background: #17243497;
     border-radius: 10px;
   }
@@ -1096,7 +1095,7 @@ top: 150px;
   }
   .ensino{
     position: absolute;
-  width: 352px;
+  width: 300px;
   height: 106px;
   top: 40px;
   left: 20px;
@@ -1111,8 +1110,8 @@ top: 150px;
   }
   .inco{
     position: absolute;
-    width: 352px;
-    height: 106px;
+    width: 300px;
+    height: 80px;
     top: 70px;
     left: 18px;
     
@@ -1126,7 +1125,7 @@ top: 150px;
   }
   .ensino2{
     position: absolute;
-  width: 352px;
+  width: 300px;
   height: 106px;
   top: 15px;
   left: 20px;
@@ -1141,7 +1140,7 @@ top: 150px;
   }
   .bpk{
     position: absolute;
-    width: 352px;
+    width: 300px;
     height: 106px;
     top: 80px;
     left: 20px;
@@ -1255,10 +1254,11 @@ top: 150px;
   
   .seta1{
     position: absolute;
-    width: 190px;
+    width: 180px;
     left: 200px;
     top: 170px;
     transform: rotate(-20deg);
+    
   }
   
   .seta2{
