@@ -1289,6 +1289,12 @@ top: 150px;
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
+  *{
+    border: blue dotted;
+  }
+  body{
+    width: 720px;
+  }
   h1{
     font-size: 40px;
     margin-left: 40px;
